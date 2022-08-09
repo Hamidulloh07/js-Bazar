@@ -18,7 +18,7 @@ elForm.addEventListener("submit", function(evt) {
     foodElement.push(elInputValue);
     elInput.value = ""
     elList.appendChild(elItem);
-    console.log(foodElement);
+    console.log(`Maxsulot: = ${foodElement}`);
     elItem.textContent = foodElement;
      return (foodElement);
      if (foodElement > 0) {
