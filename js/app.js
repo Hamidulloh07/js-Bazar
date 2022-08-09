@@ -10,7 +10,6 @@ elForm.addEventListener("submit", function(evt) {
  elInputValue = (elInput.value);
 
   for (foodElement of elInputValue) {
-
     foodElement = []
 
     let elItem = document.createElement("li");
@@ -22,15 +21,8 @@ elForm.addEventListener("submit", function(evt) {
     elItem.textContent = `Maxsulot nomi = ${foodElement}`;
      return (foodElement);
      if (foodElement > 0) {
-      elItem.textContent = "son kiritmang"
+    elItem.textContent = "son kiritmang"
      }
-
-  
-     
   };
-
-
-      
-
 });
 
